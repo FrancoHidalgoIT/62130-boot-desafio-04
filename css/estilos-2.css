@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+body {
+    background-color: whitesmoke  
+}
+
+.back-img {
+    background-color: black;
+    background-image: url("../img/background-img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1 {
+    font-family:'Shadows Into Light', 'cursive';
+    font-size: 70px;
+    background-color: transparent
+    margin: 0px 300px;
+    color: #DC2F02;   
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform:uppercase
+}
+
+h3 {
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 20px;
+    color: #DC2F02;
+    margin: 30px 0px;
+    text-align: center
+}
+
+.h3-1 {
+    color: black;
+}
+
+.img-1 {
+    color: white;
+    border-radius: 15px;
+    border-style: dashed;
+    align-items: center;
+    width: 80%;
+}
+
+.img-2 {
+    color: white;
+    border-radius: 15px;
+    border-style: dashed;
+    align-items: center;
+    width: 80%;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+figcaption {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+figure {
+    align-items: center;
+}
+
+.button {
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+
+main {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+article {
+    background-color: #DC2F02;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    text-align: center;   
+    border-radius: 15px;
+}
+
+.article-2 {
+    background-color: black
+}
+
+footer {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.p-footer {
+    background-color: black;
+    color: #DC2F02;
+    padding: 20px 10px;
+    border-radius: 45px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 12px;
+}
